@@ -1,0 +1,27 @@
+Base de datos Diccionario Castellano para dict  - versión de prueba -
+
+-Requiere tener instalado los paquetes dict y dictd 
+-Para ver todos los caracteres necesita fuentes unicode.
+
+1) Extraiga el archivo dict-es.tar.gz en un directorio.
+2) Copie los archivos dic_es.dict.dz y dicsu.index a /usr/local/share/dictd
+3) Revise la existencia de una entrada a /usr/local/share/dictd en /etc/dictd/dictd.order
+4) En /etc/dictd/dictd.conf se establece el archivo que listará los diccionarios del sistema, 
+en mi caso la línea que nos interesa dice include /var/lib/dictd/db.list 
+(en Debian es dictdconfig el que crea el archivo db.list)
+5) ./usr/sbin/dictdconfig --write
+6) ./etc/init.d/dictd restart
+7) para consultar una palabra basta con hacer #dict "palabra_a_buscar" en la consola 
+también puedes consultarlo con kdict desde kde o gdict desde gnome por ejemplo. =)
+
+
+¡¡Listo!!
+
+
+-Puede existir palabras/significados de más que son significados corridos de linea 
+por ser muy largos, por favor si te encuentras con uno avisame <sercari@esdebian.org> 
+y lo corregire, te darías cuenta por que el significado no esta completo sino cortado,
+gracias.
+
+Gracias a todos los que colaboraron de alguna manera, información, apoyo y demás.
+09/07/2009

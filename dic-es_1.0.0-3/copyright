@@ -1,0 +1,23 @@
+     This is the Debian GNU/Linux prepackaged version of The on-line
+Diccionario Castellano File, formatted for use by The DICT
+
+     This package was constructed by Sergio R. Vicari <sercari@esdebian.org>
+
+
+
+dict-es:
+Este Diccionario fue extraido de la web: http://www.educar.org/diccionario/
+Cuyo contenidos distribuidos bajo una Licencia de (CC) Creative Commons 
+-ALGUNOS DERECHOS RESERVADOS- La cual cumplo en la presente version del 
+mismo diccionario. Para más informacion acerca de la licencia Creative 
+Commons puede ver el documento /usr/share/doc/dict-es/License
+
+dict-es:
+This dictionary was extracted from the web: http://www.educar.org/diccionario/
+Whose content distributed under a license (CC) Creative Commons 
+-SOME RIGHTS RESERVED- Which meet in this version of the dictionary.
+For more information about the Creative Commons can view the document
+/usr/share/doc/dict-es/License
+--
+Sergio R.Vicari
+
